@@ -1,7 +1,8 @@
 export default {
+    MAX_ATTACHMENT_SIZE: 5000000,
     s3: {
       REGION: "ap-southeast-1",
-      BUCKET: "notes-app-api-prod-serverlessdeploymentbucket-1ir9yh07440gd"
+      BUCKET: "hdpz-notes-upload"
     },
     apiGateway: {
       REGION: "ap-southeast-1",
